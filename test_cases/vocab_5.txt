@@ -1,0 +1,7 @@
+climate
+human
+temperature
+weather
+sun
+global
+warming

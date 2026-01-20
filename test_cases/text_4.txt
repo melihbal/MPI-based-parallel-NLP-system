@@ -1,0 +1,51 @@
+The future of artificial intelligence.
+Turing's predictions about thinking machines in the 1950s laid the philosophical groundwork for later developments in artificial intelligence (AI).
+Neural network pioneers such as Hinton and LeCun in the 80s and 2000s paved the way for generative models.
+In turn, the deep learning boom of the 2010s fueled major advances in natural language processing (NLP), image and text generation and medical diagnostics through image segmentation, expanding AI capabilities.
+These advancements are culminating in multimodal AI, which can seemingly do it all—but just as previous advancements have led to multimodal, what might multimodal AI lead to?
+Since its inception, generative AI (gen AI) has been evolving.
+Already, we have seen developers such as OpenAI and Meta move away from large models to include smaller and less expensive ones, improving AI models to do the same or more using less.
+Prompt engineering is changing as models such as ChatGPT get more intelligent and better able to understand the nuances of human language.
+As LLMs are trained on more specific information, they can provide deep expertise for specialized industries, becoming always-on agents ready to help complete tasks.
+AI is not a flash-in-the-pan technology.
+It's not a phase.
+Over 60 countries have developed national AI strategies to harness AI's benefits while mitigating risks.
+This means substantial investments in research and development, reviewing and adapting relevant policy standards and regulatory frameworks and ensuring the technology doesn’t decimate the fair labor market and international cooperation.
+It is becoming easier for humans and machines to communicate, enabling AI users to accomplish more with greater proficiency.
+AI is projected to add USD 4.4 trillion to the global economy through continued exploration and optimization.
+How AI continues to develop in the next 10 years.
+Between now and 2034, AI will become a fixture in many aspects of our personal and business lives.
+Generative AI models such as GPT-4 have shown immense promise in the short time they've been available for public consumption, but their limitations have also become well known.
+As a result, the future of AI is being defined by a shift toward both open source large-scale models for experimentation and the development of smaller, more efficient models to spur ease of use and facilitate a lower cost.
+Initiatives such as Llama 3.1, an open source AI model with 400 billion parameters and Mistral Large 2, released for research purposes, illustrate the trend of fostering community collaboration in AI projects while maintaining commercial rights.
+The growing interest in smaller models has led to the creation of models such as the 11 billion parameter mini GPT 4o-mini, which is fast and cost-effective.
+It won't be long before there's a model suitable for embedding in devices such as smartphones, especially as the cost continues to decrease.
+This movement reflects a transition from exclusively large, closed models to more accessible and versatile AI solutions.
+While smaller models offer affordability and efficiency, there remains a public demand for more powerful AI systems, indicating there will likely be a balanced approach in AI development to attempt to prioritize both scalability and accessibility.
+These new models deliver greater precision with fewer resources, making them ideal for enterprises needing bespoke content creation or complex problem-solving capabilities.
+AI has influenced the development of several core technologies.
+AI plays a pivotal role in advancing computer vision by enabling more accurate image and video analysis, which is essential for technologies such as autonomous vehicles and medical diagnostics.
+In natural language processing (NLP), AI enhances the ability of machines to comprehend and generate human language, improving communication interfaces and enabling more sophisticated translation and sentiment analysis tools.
+AI supercharges predictive and big data analytics by processing and interpreting vast amounts of data to forecast trends and inform decisions.
+In robotics, the development of more autonomous and adaptable machines simplifies tasks such as assembly, exploration and service delivery.
+Also, AI-driven innovations on the Internet of Things (IoT) enhance the connectivity and intelligence of devices, leading to smarter homes, cities and industrial systems.
+AI in 2034.
+The fledgling field of multimodal AI will be thoroughly tested and refined by 2034.
+Unimodal AI focuses on a single data type, such as NLP or computer vision.
+In contrast, multimodal AI more closely resembles how humans communicate by understanding data across visuals, voice, facial expressions and vocal inflections.
+This technology will integrate text, voice, images, videos and other data to create more intuitive interactions between humans and computer systems.
+It has the potential to power advanced virtual assistants and chatbots that understand complex queries and can provide bespoke text, visual aids or video tutorials in response.
+Democratization of AI and easier model creation.
+AI will become even more integrated into personal and professional spheres, driven by user-friendly platforms that allow nonexperts to use AI for business, individual tasks, research and creative projects.
+These platforms, similar to today's website builders, will enable entrepreneurs, educators and small businesses to develop custom AI solutions without requiring deep technical expertise.
+API-driven AI and microservices will allow businesses to integrate advanced AI functions into their existing systems in a modular fashion.
+This approach will speed up the development of custom applications without requiring extensive AI expertise.
+For enterprises, easier model creation means faster innovation cycles, with custom AI tools for every business function.
+No-code and low-code platforms will allow non-technical users to create AI models by using drag-and-drop components, plug-and-play modules or guided workflows.
+As many of these platforms will be LLM-based, users can also query up an AI model using prompts.
+Auto-ML platforms are rapidly improving, automating tasks such as data preprocessing, feature selection and hyperparameter tuning.
+Over the next decade, Auto-ML will become even more user-friendly and accessible, allowing people to create high-performing AI models quickly without specialized expertise.
+Cloud-based AI services will also provide businesses with prebuilt AI models that can be customized, integrated and scaled as needed.
+For hobbyists, accessible AI tools will foster a new wave of individual innovation, allowing them to develop AI applications for personal projects or side businesses.
+Open-source development can foster transparency, while careful governance and ethical guidelines might help maintain high-security standards and build trust in AI-driven processes.
+The culmination of this ease of access might be a fully voice-controlled multimodal virtual assistant capable of creating visual, text, audio or visual assets on demand.

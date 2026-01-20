@@ -1,0 +1,11 @@
+simba
+lion
+king
+father
+uncle
+savanna
+jungle
+home
+alone
+mufasa
+nala
