@@ -4,19 +4,19 @@
 **Authors:** Osman Melih BAL, Bahadır DEMİREL
 **Date:** December 2025
 
-## 📖 Overview
+## Overview
 This project implements a parallel Natural Language Processing (NLP) system using **Python** and the **`mpi4py`** library. The system processes text files to calculate **Term Frequency (TF)** and **Document Frequency (DF)** using four distinct MPI communication patterns.
 
 The solution relies solely on **blocking point-to-point communication** (`comm.send` and `comm.recv`) as per the assignment requirements. The architecture follows a strict **Manager/Worker** logic where the Manager (Rank 0) coordinates tasks.
 
-## 📂 Project Structure
+## Project Structure
 
 - **`solution.py`**: The main MPI script containing the implementation of the Manager/Worker logic and all 4 parallel patterns.
 - **`text_*.txt`**: Input text files for testing (e.g., 'Lorem ipsum', 'Rapunzel', 'Lion King').
 - **`vocab_*.txt`**: Vocabulary lists defining the words to search for.
 - **`stopwords_*.txt`**: Lists of stopwords to remove during preprocessing.
 
-## 🚀 Prerequisites
+## Prerequisites
 
 - **Python 3.x**
 - **MPI Implementation** (e.g., MPICH or OpenMPI)
@@ -26,7 +26,7 @@ The solution relies solely on **blocking point-to-point communication** (`comm.s
 
     pip install mpi4py
 
-## 🛠 Usage
+## Usage
 
 The program is executed using `mpiexec` or `mpirun`. The generic syntax is:
 
@@ -40,7 +40,7 @@ The program is executed using `mpiexec` or `mpirun`. The generic syntax is:
 
 ---
 
-## 🧩 Communication Patterns
+## Communication Patterns
 
 ### Pattern 1: Parallel End-to-End Processing (Data Parallelism)
 * **Process Count:** `N` (Arbitrary, min 2).
@@ -71,7 +71,7 @@ The program is executed using `mpiexec` or `mpirun`. The generic syntax is:
 
 ---
 
-## ⚙️ Implementation Details
+## Implementation Details
 
 ### Dynamic Chunking
 Instead of simple integer division, we implemented a `create_chunk_list` helper function. This ensures that every single line of text is assigned to a chunk without data loss, even if the line count is not perfectly divisible by the number of workers.
@@ -79,7 +79,7 @@ Instead of simple integer division, we implemented a `create_chunk_list` helper 
 ### Deadlock Prevention
 A major challenge, especially in Pattern 4, was preventing deadlocks during data exchange. We implemented **asymmetric communication** (alternating send/recv order based on rank parity) to ensure no pair of processes is waiting on each other indefinitely.
 
-## 🧪 Example Commands
+## Example Commands
 
 **Running Pattern 1 (Data Parallelism):**
 
